@@ -1,0 +1,52 @@
+.banner {
+	margin-bottom: 15px;
+}
+.banner__wrap {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	left: 20px;
+}
+.banner__background {
+	width: 900px;
+	height: 304px;
+	-o-object-fit: contain;
+	object-fit: contain;
+}
+.banner__text {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-family: 'Gotham Pro';
+	font-size: 140px;
+	opacity: 0.4;
+	color: #221f1f;
+	text-transform: uppercase;
+	mix-blend-mode: color-burn;
+}
+.banner__plane {
+	position: absolute;
+	top: 0px;
+	right: -9999px;
+	-webkit-animation-name: fly-absolut;
+	-moz-animation-name: fly-absolut;
+	-o-animation-name: fly-absolut;
+	animation-name: fly-absolut;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: cubic-bezier(.09,.69,.08,.9);
+	-moz-animation-timing-function: cubic-bezier(.09,.69,.08,.9);
+	-o-animation-timing-function: cubic-bezier(.09,.69,.08,.9);
+	animation-timing-function: cubic-bezier(09,.69,.08,.9);
+	-webkit-animation-duration: 2s; 
+	-moz-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-duration: 2s;
+	-moz-animation-delay: 0.2s;
+	-o-animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}

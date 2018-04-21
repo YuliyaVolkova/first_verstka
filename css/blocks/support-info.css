@@ -1,0 +1,26 @@
+.support-info {
+	margin-top: 3px;
+	min-height: 170px;
+	background-color: #4bb56b;
+	background: url(../../img/background/support.png) repeat-x;
+	background-position: left top;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-info__text {
+	display: block;
+    width: 700px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-left: 30px;
+}
+.support-info__text a {
+	color: white;
+	font-weight: 700;
+}
+.support-info__text u a  {
+	text-decoration: underline;
+}

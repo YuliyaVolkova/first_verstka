@@ -1,0 +1,76 @@
+@-webkit-keyframes intro_ball {
+	0% { opacity: 0;	}
+	30% {opacity: 1;}
+	50% {
+		transform: translateY(-10%);
+	}
+	70% {
+		transform: translateY(0%); 
+	}
+	82% {
+		transform: translateY(-7%);
+	}
+	94% {
+		transform: translateY(0%);
+	}
+	100% {
+		transform: translateY(-2%);
+	
+}
+@-moz-keyframes intro_ball {
+	0% { opacity: 0;	}
+	30% {opacity: 1;}
+	50% {
+		transform: translateY(-8%);
+	}
+	70% {
+		transform: translateY(0%); 
+	}
+	82% {
+		transform: translateY(-5%);
+	}
+	94% {
+		transform: translateY(0%);
+	}
+	100% {
+		transform: translateY(-2%);
+	}
+}
+@-o-keyframes intro_ball {
+	0% { opacity: 0;	}
+	30% {opacity: 1;}
+	50% {
+		transform: translateY(-8%);
+	}
+	70% {
+		transform: translateY(0%); 
+	}
+	82% {
+		transform: translateY(-5%);
+	}
+	94% {
+		transform: translateY(0%);
+	}
+	100% {
+		transform: translateY(-2%);
+	}
+}
+@keyframes intro_ball {
+	0% { opacity: 0;	}
+	30% {opacity: 1;}
+	50% {
+		transform: translateY(-10%);
+	}
+	70% {
+		transform: translateY(0%); 
+	}
+	82% {
+		transform: translateY(-7%);
+	}
+	94% {
+		transform: translateY(0%);
+	}
+	100% {
+		transform: translateY(-2%);
+	}
+}

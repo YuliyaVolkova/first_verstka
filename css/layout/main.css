@@ -1,0 +1,22 @@
+/*----------about.html-------*/
+@import url(fonts.css);
+@import url(normalize.css);
+@import url(base.css);
+@import url(../animations/intro_ball.css);
+@import url(../blocks/page_index.css);
+@import url(../blocks/intro_block.css);
+@import url(../blocks/header.css);
+@import url(../blocks/sidebar.css);
+@import url(../animations/fly-absolut.css);
+@import url(../blocks/banner.css);
+@import url(../blocks/services.css);
+@import url(../blocks/articles_block.css);
+@import url(../blocks/pagination.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/breadcrumbs.css);
+@import url(../blocks/page_reviews.css);
+@import url(../blocks/support-info.css);
+@import url(../blocks/add-review.css);
+@import url(../blocks/page_team.css);
+@import url(../blocks/team-block.css);
+@import url(../blocks/partners.css);

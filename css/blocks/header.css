@@ -1,0 +1,89 @@
+.header {
+	background-color: #4b73b5;
+    min-height: 77px;
+    display: flex;
+    margin-bottom: 8px;
+}
+.header__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__info {
+	font-weight: 700;
+	text-align: right;
+}
+.info__tel {
+	text-transform: uppercase;
+    font-size: 21px;
+    color: white;
+    line-height: 26px;
+}
+
+.info__schedule {
+	position: relative;
+}
+.schedule__link {
+    font-size: 14px;
+    color: white;
+    text-decoration: underline;
+    position: relative;
+    transition: 0.8s;
+}
+.schedule__link:hover {
+	color: rgba(255,255,255,0.7);
+}
+.schedule__tooltip {
+	position: absolute;
+    width: 162px;
+    height: 75px;
+    line-height: 71px;
+    right: 0px;
+    top: 34px;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 0 rgba(23, 59, 117, 0.55);
+    z-index: 2;
+    transition: 2s;
+}
+.schedule__tooltip:before {
+	content: "";
+    display: block;
+    position: absolute;
+    height: 11px;
+    width: 14px;
+    transform: rotate(45deg);
+    right: 4px;
+    top: -5px;
+    background-color: inherit;
+    box-shadow: -3px -3px 3px 0 rgba(23, 59, 117, 0.35);
+}
+.schedule__tooltip:after {
+    content: "";
+    display: block;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -20px;
+}
+.schedule__text {
+	display: inline-block;
+	line-height: 18px;
+    text-align: left;
+	vertical-align: middle;
+}
+.schedule__worktime {
+	font-weight: 700;
+    color: #4b73b5;
+}
+.schedule__breaktime {
+	color: #221f1f;
+    font-weight: 300;
+    line-height: 22px;
+}
+.schedule__link:hover+.schedule__tooltip {
+		visibility: visible;
+}

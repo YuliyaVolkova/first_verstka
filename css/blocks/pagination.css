@@ -1,0 +1,63 @@
+.pagination {
+	margin: 0px auto 61px auto;
+}
+.pagination__wrap {
+	text-align: center;
+	line-height: 21px;
+}
+.page__counter {
+	display: inline-block;
+	color: #656464;
+	font-weight: 300;
+	margin-right: 16px;
+	vertical-align: middle;
+}
+.pages__list {
+	font-size: 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.pages__item {
+	display: inline-block;
+    font-weight: 700;
+    width: 25px;
+    height: 25px;
+    line-height: 23px;
+    vertical-align: middle;
+}
+.pages__item:hover .page__link {
+	color: #1c5bc3;
+}
+.page__link {
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: 700;
+	transition: 0.3s;
+}
+.pages__item--active {
+	border-radius: 3px;
+	background-color: #4b73b5;
+}
+.pages__item--active .page__link {
+	color: white;
+}
+.page__link--prev, .page__link--next {
+	display: inline-block;
+	width: 20px;
+	height: 15px;
+	vertical-align: middle;
+	background: url(../../img/icon/icon_sprite2.png) no-repeat;
+}
+
+.link__prev--on {
+	background-position: -2px -82px;
+}
+.link__prev--off {
+	background-position: -2px 2px;
+}
+.link__next--on {
+	background-position: right -83px;
+}
+.link__next--off {
+	background-position: -83px 3px;
+}

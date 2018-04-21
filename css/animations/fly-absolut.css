@@ -1,0 +1,29 @@
+
+@-webkit-keyframes fly-absolut {
+	from { transform:translate(0px,85%);
+	}
+	to { 
+		transform:translate(-9999px,3%);
+	}
+}
+@-moz-keyframes fly-absolut {
+	from { transform:translate(0px,85%);
+	}
+	to { 
+		transform:translate(-9999px,3%);
+	}
+}
+@-o-keyframes fly-absolut {
+	from { transform:translate(0px,85%);
+	}
+	to { 
+		transform:translate(-9999px,3%);
+	}
+}
+@keyframes fly-absolut {
+	from { transform:translate(0px,85%);
+	}
+	to { 
+		transform:translate(-9999px,3%);
+	}
+}

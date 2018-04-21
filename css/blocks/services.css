@@ -1,0 +1,89 @@
+.services {
+	padding-right: 70px;
+	margin-bottom: 62px;
+}
+.services__list {
+ 	display: flex;
+ 	justify-content: space-evenly;
+}
+.services__item {
+	width: 250px;
+	height: 455px;
+	border: 1px solid transparent;
+	transition: 0.3s;
+}
+.service__link {
+	display: block;
+	text-align: center;
+	padding-top: 25px;
+}
+.services__item--active, .services__item:hover {
+	border-color: #e8e9ed;
+}
+.service__icon {
+	width: 72px;
+	height: 72px;
+	background-color: #4b73b5;
+	background-image: url(../../img/icon/service_icon.png);
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin: 15px auto;
+}
+.service__icon--sprite-flower {
+	background-position: left top;
+}
+.service__icon--sprite-star {
+	background-position: left -137px;
+}
+.service__icon--sprite-palette {
+	background-position: 3px -70px;
+}
+.service__block {
+	text-align: center;
+}
+.service__title {
+	text-transform: uppercase;
+	line-height: 43px;
+	font-size: 10.78px;
+	font-weight: 700;
+	letter-spacing: 0.26em;
+	margin: 0px;
+}
+.service__description {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 33px;
+	text-align: center;
+}
+.service__desc {
+	line-height: 32px;
+}
+.desc__list {
+	text-align: left;
+}
+.desc__item {
+	font-size: 18px;
+	line-height: 35px;
+	padding-left: 25px;
+}
+.desc__item:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 3px;
+	border-radius: 30%;
+	background-color: #221f1f;
+	margin-right: 20px;
+}
+.service__price {
+	padding-top: 14px;
+	}
+.price__amount {
+	font-size: 49px;
+	letter-spacing: -0.6px;
+}
+.simbol_dol {
+	font-size: 33px;
+	vertical-align: 8px;
+}

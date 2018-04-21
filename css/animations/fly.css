@@ -1,0 +1,25 @@
+
+@-webkit-@keyframes fly {
+	from { transform:translate(65%,50%);
+	}
+	to {transform:translate(0%,1%);
+	}
+}
+@-moz-keyframes fly {
+	from { transform:translate(65%,50%);
+	}
+	to {transform:translate(0%,1%);
+	}
+}
+@-o-keyframes fly {
+	from { transform:translate(65%,50%);
+	}
+	to {transform:translate(0%,1%);
+	}
+}
+@keyframes fly {
+	from { transform:translate(65%,50%);
+	}
+	to {transform:translate(0%,1%);
+	}
+}

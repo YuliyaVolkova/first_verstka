@@ -1,0 +1,32 @@
+.partners-block {
+	margin-bottom: 65px;
+
+}
+.partners-block__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+.partners-block__item {
+	width: 33%;
+	min-height: 127px;
+	display: flex;
+}
+.partners-block__link {
+	display: block;
+	max-width: 165px;
+	max-height: 70px;
+	overflow: hidden;
+	margin: auto;
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+	transition: 0.3s;
+}
+.partners-block__img {
+	max-width: 165px;
+	max-height: 70px;
+}
+.partners-block__link:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}

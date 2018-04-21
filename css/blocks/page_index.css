@@ -1,0 +1,38 @@
+.wrapper--page-index {
+	min-width: 100%;
+	margin-bottom: 0px;
+	display: flex;
+}
+.wrapper--page-index * {
+	z-index: 1;
+}
+.wrapper--page-index:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	background-image: url(../../img/intro/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-filter: opacity(0.6);
+	filter: opacity(0.6);
+	z-index: 0;
+}
+.wrapper--page-index:after {
+	display: none;
+}
+.content--page-index {
+	min-width: 100%;
+	display: flex;
+}
+
+
+
+
+
+
+
+
